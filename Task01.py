@@ -13,8 +13,8 @@ def NumDays(num):
     if num==6 or num==7:
         print('День ялвяется выходным!')
     if num<0 or num>7:
-        print('Выввели неверное число!')
+        print('Вы ввели неверное число!')
     if num == 0:
-        print('Выввели неверное число!')
+        print('Вы ввели неверное число!')
 
 NumDays(enter_user)
