@@ -8,11 +8,13 @@
 enter_user = int(input("Введите пожалуйста цифру соответствующую дню недели:"))
 
 def NumDays(num):
-    if 1<=num<6:
+    if 1<num<6:
         print('День ялвяется будним!')
     if num==6 or num==7:
         print('День ялвяется выходным!')
     if num<0 or num>7:
+        print('Выввели неверное число!')
+    if num == 0:
         print('Выввели неверное число!')
 
 NumDays(enter_user)
